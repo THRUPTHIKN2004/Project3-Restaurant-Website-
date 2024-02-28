@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODIES Restaurant</title>
+    <style>
+        body {
+            font-family: "Amatic SC", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #966919;
+        }
+        header {
+            background-image: url('https://designwanted.com/wp-content/uploads/2022/02/plant-pottingshed-4.jpg');
+            background-position: center;
+            color: antiquewhite;
+            height: 200px;
+            padding: 10px 0;
+            font-size: 20px;
+        }
+        h1{
+            margin-top: -20px;
+        }
+        h2{
+            color: antiquewhite;
+        }
+        nav { 
+            color: antiquewhite;
+            padding: 10px 0;
+            text-align: center;
+            line-height: 100px;
+            
+        }
+        nav a {
+            color: antiquewhite;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        section {
+            padding: 20px;
+            border-spacing: 20px;
+        }
+        footer {
+            background: #532c1a;
+            color: antiquewhite;
+            padding: 10px 0;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: antiquewhite;
+        }
+        .slideshow{
+            margin-top: 20px;
+            color: antiquewhite;
+        }
+        
+        .contact {
+            width: 50%;
+            margin-top: 6px;
+            padding: 20px;
+            align-items: center;
+        }
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        input[type=submit] { 
+            background-color:#E5AC40;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        @media screen and (max-width: 600px) {
+        .contact, input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }}
+        @keyframes bounce {
+           0% { transform: translateY(0); }
+           50% { transform: translateY(-10px); }
+           100% { transform: translateY(0); }
+        }
+        .box.animated {
+            animation: bounce 0.5s infinite;
+        }
+        .error {
+            color: rgb(255, 191, 0);
+        }
+        .content{
+            display: flex;
+            background-color: #E5AC40;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            text-align: center;
+            color: bisque;
+            width: 40%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #7E493A;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+           <h1>F O O D I E S</h1>
+           <nav>
+               <a href="#home">HOME  |</a>
+               <a href="#menu">MENU  |</a>
+               <a href="#about">ABOUT  |</a>
+               <a href="#contact">CONTACT  |</a>
+           </nav>
+        </div>
+   </header>
+
+   <section id="home">
+    <div class="container">
+        <div class="box">
+         <h2>"Indulge your senses and savor the moment at our restaurant, where every dish tells a story and every bite is a culinary journey. "</h2>
+        </div>
+        <div class="slideshow">
+            <img class="Slides" src="https://www.ritiriwaz.com/wp-content/uploads/2020/10/Indian-Food.jpg" style="width:100%">
+            <img class="Slides" src="https://www.french-waterways.com/waterpress/wp-content/imagez/Copy-of-FW_French-dishes.webp" style="width:100%">
+            <img class="Slides" src="https://t4.ftcdn.net/jpg/03/24/16/57/360_F_324165787_gparWuzxpEkCZnvl2SBgX3Hake6rrckN.jpg" style="width:100%">
+            <img class="Slides" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sanraku.com%2Fwhat-are-traditional-japanese-foods%2F&psig=AOvVaw2St3B5pwrSdBqzvP-cIuqL&ust=1709102307181000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjUxcCw9MqEAxU0cmwGHVtDDG0QjRx6BAgAEBc" style="width:100%">
+            <img class="Slides" src="https://www.chefspencil.com/wp-content/uploads/Top-25-most-popular-foods-in-Italy.jpg.webp" style="width:100%">
+            <img class="Slides" src="https://us.123rf.com/450wm/seamartini/seamartini2109/seamartini210900743/174009126-thai-cuisine-vector-mushroom-soup-tom-klong-hed-ruam-squid-salad-yam-pra-muek-chicken-soup-tom-kha.jpg?ver=6" style="width:100%">
+            <img class="Slides" src="https://www.julieseatsandtreats.com/wp-content/uploads/2016/05/25-Mexican-Main-Dishes-collage-square-650x648.jpg" style="width:100%">
+            <img class="Slides" src="https://t.pimg.jp/075/799/039/1/75799039.jpg" style="width:100%">
+        </div><br>
+        <a href="#contact" class="btn">Reserve Now</a>
+    </div>
+   </section>
+
+   <section id="menu">
+    <div style="text-align: center">
+        <h2>Our Menu</h2>
+        <p>View our delicious offerings below:</p>
+        <a href="menu.html">View Menu</a>
+    </div>
+   </section>
+
+   <section id="about">
+    <div style="text-align:center">
+     <h2>About Us</h2>
+    </div>
+        <div class="content">
+           <p>"Welcome to our exquisite restaurant where every corner is adorned with elegance, <br>and every dish is a masterpiece crafted
+              with love. <br>Step into a realm of beauty where every detail is thoughtfully designed to enchant your senses and<br> elevate 
+              your dining experience to new heights..."</p>
+        </div>
+   </section>
+
+   <section id="contact">
+    <div class="container">
+        <div style="text-align:center">
+          <h2><u>Contact Us</u></h2>
+        </div>
+        <div class="contact">
+           <p><strong>Address:</strong> F O O D I E S Restaurant (Veg & Non-Veg), 42nd Living st,43054,India.</p><br>
+           <p><strong>Contact no:</strong> 801-232-4566</p><br>
+           <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+            <form action="form.html" id="myForm">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name.." required>
+              <span id="nameError" class="error"></span><br><br>
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email id.." required>
+              <span id="emailError" class="error"></span><br><br>
+              <label for="people">How many number of people</label><br><br>
+              <input type="number" id="people" name="How many number of people" placeholder="Number" required><br><br>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Message\Special Requirements..." style="height:170px" style="width:170px"></textarea>
+              <textarea id="review" name="review" placeholder="Leave a review..."></textarea>
+              <input type="submit" value="Submit">
+            </form>         
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="http://www.twitter.com/"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="https://accounts.google.com/signin"><img src="google-icon.png" alt="Google"></a>
+        </div>
+        <p>&copy; 2024 Restaurant. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+     var i;
+     var x = document.getElementsByClassName("Slides");
+     for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+     }
+     myIndex++;
+     if (myIndex > x.length) {myIndex = 1}
+       x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+    }
+
+    document.querySelector('.box').classList.add('animated');
+
+
+    const form = document.getElementById('myForm');
+        const nameInput = document.getElementById('name');
+        const emailInput = document.getElementById('email');
+        const nameError = document.getElementById('nameError');
+        const emailError = document.getElementById('emailError');
+
+        form.addEventListener('submit', function(event) {
+        let valid = true;
+
+        // Name validation
+        if (!nameInput.value.trim()) {
+         valid = false;
+         nameError.textContent = 'Name is required';
+        } else {
+         nameError.textContent = '';
+        }
+
+        // Email validation
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailInput.value.match(emailPattern)) {
+         valid = false;
+         emailError.textContent = 'Please enter a valid email address';
+        } else {
+         emailError.textContent = '';
+        }
+
+        if (!valid) {
+         event.preventDefault(); // Prevent form submission if validation fails
+        }
+        });
+</script>
+</body>
+</html>
